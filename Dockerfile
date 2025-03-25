@@ -37,7 +37,7 @@ RUN apt-get update && apt-get install -y curl gnupg && \
 COPY supervisor.conf /etc/supervisor/conf.d/supervisor.conf
 
 # Copy built frontend or the development folder (if using dev server)
-# COPY --from=frontend /app/frontend /app/frontend
+COPY --from=frontend /app/frontend /app/frontend
 
 EXPOSE 5000 9000
 
