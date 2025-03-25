@@ -1,7 +1,7 @@
 {
   "name": "ui",
   "version": "0.0.1",
-  "description": "Dataless Causal",
+  "description": "daca",
   "productName": "DaCa",
   "author": "Wikus Bergh <wikus.bergh@derivco.co.za>",
   "private": true,

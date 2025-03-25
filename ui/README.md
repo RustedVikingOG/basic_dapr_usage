@@ -1,7 +1,3 @@
-# DaCa (ui)
-
-Dataless Causal
-
 ## Install the dependencies
 ```bash
 yarn
